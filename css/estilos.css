@@ -1,12 +1,23 @@
-body{ box-sizing: border-box; width: 100%; height: 100%; margin:0; padding: 1%; background-color: #18191a;}
+body{
+  box-sizing: border-box;
+  width: 100%; height: 100%;
+  margin: 0; padding: 1%;
+  border: 0.6vw dashed powderblue;
+  background-color: #18191a;
+}
 
-/*HEADER*/
+/*HEADER Y SUS PARTES*/
 header{
+  display: flex;
   width: 100%;
   height: 100%;
   background-color: red;
+
 }
 
+.H1{ margin-left: auto; margin-right: auto;}
+
+.logo{ width: 100%; height:100%;}
 /*NAV*/
 nav{
   display: flex;

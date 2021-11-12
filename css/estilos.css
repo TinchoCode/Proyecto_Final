@@ -15,10 +15,11 @@ header{
   border: 0.1vw solid powderblue;
 }
 
-.H1{ margin-left: auto; margin-right: auto;}
+.H1{ width: 50%; margin-left: auto; margin-right: auto;}
 
 .logo{ width: 100%; height:100%;}
-/*NAV*/
+
+/*NAV y PARTES*/
 nav{
   display: flex;
   width: 100%;
@@ -26,6 +27,7 @@ nav{
   background-color: blue;
 }
 
+nav ul li{ display: inline-block;}
 
 /*PRIMER SECTION Y PRIMER ASIDE*/
 .S1A1{

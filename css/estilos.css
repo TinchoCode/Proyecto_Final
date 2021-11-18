@@ -92,7 +92,7 @@ header{
 }
 
 /*PRIMER SECTION Y PRIMER ASIDE*/
-.S1A1{
+#S1A1{
   display: flex;
   flex-direction: row;
   height: 100%;
@@ -107,13 +107,13 @@ header{
   padding: 0 1% 1% 1%;  
 }
 
-.S1A1 .s1 p{
+#S1A1 .s1 p{
   font-size: 20px;
   font-family: "delight candles";
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.S1A1 .s1 h1{
+#S1A1 .s1 h1{
   font-size:2em;
   text-align: center;
   font-family: "delight candles";
@@ -122,7 +122,7 @@ header{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-.S1A1 .s1 h2{
+#S1A1 .s1 h2{
   font-size: 1.7em; 
   font-family: "delight candles";
   text-decoration: underline powderblue; 
@@ -137,7 +137,17 @@ header{
   border-left:solid 1px black;
   background-color: #333;
 }
+/*JUEGOS*/
 
+.juegos{
+  display: none;
+  width: 70%;
+  min-height: 100vh;
+  color: white;
+  background-color: #333;
+  padding: 0 1% 1% 1%;  
+}
+/*COSA EN CELULAR*/
 @media(max-width: 767px){
   .s1{
     color: white;

@@ -160,10 +160,12 @@ header{
 }
 /*COSA EN CELULAR*/
 @media(max-width: 767px){
-  .s1{
+  body{
     color: white;
   }
-  #S1A1 h2{font-size:0.7em;}
+  #S1A1 .s1 h2,#S1A1 .a1 h2{
+    font-size: 0.7em;
+  }
 }
 
 /*FOOTER*/

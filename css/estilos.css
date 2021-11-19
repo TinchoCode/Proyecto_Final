@@ -3,11 +3,11 @@
   src: url("../fuentes/DelightCandles.ttf")
   format("truetype");
 }
-
+html{box-sizing: border-box;}
 body{
   box-sizing: border-box;
-  width: 100%; height: 100%;
-  margin: 0; padding: 1%;
+  width: 80%; height: 100%;
+  margin: 0 auto; padding: 0.5%;
   border: 0.6vw dashed powderblue;
   background-color: #18191a;
 }
@@ -147,7 +147,7 @@ header{
   background-color: #333;
   padding: 0 1% 1% 1%;  
 }
-
+/*EMULADORES*/
 .emuladores{
   display: none;
   width: 70%;

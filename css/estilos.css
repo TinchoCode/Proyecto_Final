@@ -114,7 +114,7 @@ header{
 }
 
 #S1A1 .s1 h1{
-  font-size:2em;
+  font-size: 2em;
   text-align: center;
   font-family: "delight candles";
   text-decoration: underline powderblue; 
@@ -122,7 +122,7 @@ header{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-#S1A1 .s1 h2{
+#S1A1 .s1 h2, #S1A1 .a1 h2{
   font-size: 1.7em; 
   font-family: "delight candles";
   text-decoration: underline powderblue; 
@@ -134,8 +134,10 @@ header{
 .a1{
   width: 30%;
   min-height: 100vh;
+  color: white;
   border-left:solid 1px black;
   background-color: #333;
+  padding: 0 1% 1% 1%;  
 }
 /*JUEGOS*/
 
@@ -161,6 +163,7 @@ header{
   .s1{
     color: white;
   }
+  #S1A1 h2{font-size:0.7em;}
 }
 
 /*FOOTER*/

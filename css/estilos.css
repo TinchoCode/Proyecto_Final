@@ -166,8 +166,20 @@ header{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .listaEmu li{ margin-bottom: 3px;}
-/*EMULADOR GBA*/
-.gameboyadvance{
+.pAr{
+  display: flex;
+  flex-direction: row;
+} 
+.pAr a{ 
+  text-align: center; 
+  cursor: pointer;
+  font-size: 18px; 
+  margin-right: 1%; 
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/*EMULADORES Y JUEGOS*/
+.gameboyadvance, .superNintendo, .nintendDs, .gbaJuegos{
   display: none;
   width: 70%;
   min-height: 100vh;
@@ -179,6 +191,8 @@ a:link, a:visited{
   color: white;
 }
 a:hover{color: powderblue;}
+
+
 /*COSA EN CELULAR*/
 @media(max-width: 767px){
   body{

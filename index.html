@@ -16,10 +16,11 @@
     <div class="navbar">
       <a class="itemNav" onclick="tikiTaka('s1')">Inicio</a>
       <div class="emu2"><!---->
-        <button>Juegos</button>
+        <button onclick="tikiTaka('juegos')">Juegos</button>
         <div class="otro">
-          <a onclick="tikiTaka('juegos')">ver</a>
-          <a>2</a>
+          <a onclick="tikiTaka('gbaJuegos')">GameBoy Advance</a>
+            <a onclick="tikiTaka('')">Super Nintendo</a>
+            <a onclick="tikiTaka('')">Nintendo DS</a>
         </div>
     </div>
       
@@ -27,12 +28,13 @@
           <button onclick="tikiTaka('emuladores')">Emuladores</button>
           <div class="otro">
             <a onclick="tikiTaka('gameboyadvance')">GameBoy Advance</a>
-            <a>2</a>
+            <a onclick="tikiTaka('superNintendo')">Super Nintendo</a>
+            <a onclick="tikiTaka('nintendDs')">Nintendo DS</a>
           </div>
       </div>
     </div>
-
     <div id="S1A1">
+      <!-- Comienzo SECTIONS-->
       <section class="s1  viendo">
         <h1>Bienvenido a "Tincho Ground"</h1>
         <h2>Datos de la P&aacute;gina</h2>
@@ -41,12 +43,23 @@
           Aquí podras encontrar juegos retro de GameBoyAdvance, Super Nintendo, Nintendo DS, etc. Y los Emuladores de los mismos
         </p>
       </section>
-
-      <section class="juegos escond">
-        <h1>Hola desde juegos</h1>
+      <!-- Comienzo PARTE DE JUEGOS-->
+      <section class="juegos escond"> <!--INICIO DE JUEGOS-->
+        <h1>Juegos</h1>
+        <h2>Lista:</h2>
+        <ul class="listaEmu">
+          <li><a onclick="tikiTaka('gbaJuegos')">GameBoyAdvance</a></li>
+          <li><a href="">Super Nintendo</a></li>
+          <li><a href="">Nintendo DS</a></li>
+        </ul>
       </section>
-
-      <section class="emuladores escond"> 
+      <section class="gbaJuegos escond"><!-- GAME BOY ADVANCE-->
+        <div class="pAr"><a onclick="tikiTaka('juegos')">> Juegos </a> <a>></a><a> GameBoyAdvance</a></div>
+        <h1>GameBoyAdvance</h1>
+        
+      </section>
+      <!-- Comienzo PARTE DE EMULADORES-->
+      <section class="emuladores escond"> <!--INICIO DE EMULADORES-->
         <h1> Emuladores</h1>
         <h2>Concepto:</h2>
         <p>
@@ -56,16 +69,32 @@
         <h2>Lista:</h2>
         <ul class="listaEmu"> 
           <li><a onclick="tikiTaka('gameboyadvance')">GameBoyAdvance</a></li>
-          <li><a href="">Super Nintendo</a></li>
-          <li><a href="">Nintendo DS </a></li>
+          <li><a onclick="tikiTaka('superNintendo')">Super Nintendo</a></li>
+          <li><a onclick="tikiTaka('nintendDs')">Nintendo DS </a></li>
         </ul>
       </section>
-      <section class="gameboyadvance escond"> 
+      <section class="gameboyadvance escond"><!-- GAME BOY ADVANCE-->
+        <div class="pAr"><a onclick="tikiTaka('emuladores')">> Emuladores </a> <a>></a><a> GameBoyAdvance</a></div> 
         <h1>GameBoyAdvance</h1>
         <ul class="listaEmu">
           <li><a href="https://www.mediafire.com/file/jlcazo8sdvmgc5o/VisualBoyAdvance.rar/file" target="_blank"> VisualBoyAdvance</a></li>
         </ul>
       </section>
+      <section class="superNintendo escond"><!-- SUPER NINTENDO-->
+        <div class="pAr"><a onclick="tikiTaka('emuladores')">> Emuladores </a> <a>></a><a> Super Nintendo</a></div> 
+        <h1>Super Nintendo</h1>
+        <ul class="listaEmu">
+          <li><a href="https://www.mediafire.com/file/4ab59cos9x206rg/ZSNES.rar/file" target="_blank"> ZSNES</a></li>
+        </ul>
+      </section>
+      <section class="nintendDs escond"><!-- NINTENDO DS-->
+        <div class="pAr"><a onclick="tikiTaka('emuladores')">> Emuladores </a> <a>></a><a> Nintendo DS</a></div> 
+        <h1>Nintendo DS</h1>
+        <ul class="listaEmu">
+          <li><a href="https://www.mediafire.com/file/b60pp77hes5bqdm/DeSmuME.rar/file" target="_blank"> DeSmuME</a></li>
+        </ul>
+      </section>
+      <!-- Comienzo ASIDE-->
       <aside class="a1">
         <h2> Recomendaciones</h2>
       </aside>

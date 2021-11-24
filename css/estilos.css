@@ -62,19 +62,19 @@ header{
   margin: 0;
 }
 
-.itemNav:hover,.emu2 button:hover,.otro a:hover{
+.itemNav:hover,.emu2 button:hover,.listaNav a:hover{
   background-color: powderblue;
   color: #333;
 }
 
-.otro{
+.listaNav{
   display: none; /*Con esto se esconde el div con la lista*/
   position: absolute;/*Esto hace aparecer unicamente la lista, y no alargar el "nav"*/
   min-width: 115px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.otro a{
+.listaNav a{
   cursor: pointer;
   float: none;
   color: white;
@@ -85,7 +85,7 @@ header{
   text-align: left;
 }
 
-.emu2:hover > .otro{
+.emu2:hover > .listaNav{
   display: block;
   position: absolute;
 }

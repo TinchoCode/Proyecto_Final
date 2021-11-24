@@ -7,13 +7,31 @@ body{
 }
 
 .gba{
-    color: white;
+    color: black;
 }
 .cuadritoJuego{
     display: flex;
-    border: 1px white solid;
+    flex-direction: row;
+    background-color:white ;
+    border-radius: 2em;
+    margin-bottom: 2%;
 }
 
 .imgJuego{
     width: 20%; height: 20%;
+    max-width: 100px; max-height: 100px;
+    margin: 2%;
+}
+
+.descJuego{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.descJuego p{
+    width: 97%; height: 90%;
+    margin-top: 2%; margin-bottom: 0;
+    background-color: orange;
 }

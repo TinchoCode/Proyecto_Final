@@ -1,0 +1,19 @@
+html{ box-sizing: border-box; text-decoration: none;}
+
+body{
+    box-sizing: border-box;
+    width: 100%; height: 100%;
+    margin: 0 auto; padding: 0.5%;  
+}
+
+.gba{
+    color: white;
+}
+.cuadritoJuego{
+    display: flex;
+    border: 1px white solid;
+}
+
+.imgJuego{
+    width: 20%; height: 20%;
+}

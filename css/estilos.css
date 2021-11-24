@@ -192,7 +192,8 @@ a:link, a:visited{
 }
 a:hover{color: powderblue;}
 
-
+/*COSAS DE LOS IFRAMES*/
+iframe{border-width:0px ; width: 100%; height: 100%; min-height: 70vh;}
 /*COSA EN CELULAR*/
 @media(max-width: 767px){
   body{

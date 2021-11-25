@@ -33,5 +33,14 @@ body{
 .descJuego p{
     width: 97%; height: 90%;
     margin-top: 2%; margin-bottom: 0;
-    background-color: orange;
+    
 }
+.descJuego a{ 
+    cursor: pointer;
+    margin-bottom: 1%
+}
+.descJuego a:link, .descJuego a:visited{
+    color: black;
+}
+
+.descJuego a:hover{color: blue;}

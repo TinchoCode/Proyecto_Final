@@ -15,6 +15,7 @@ body{
     background-color:white ;
     border-radius: 2em;
     margin-bottom: 2%;
+    min-height: 90px;
 }
 
 .imgJuego{

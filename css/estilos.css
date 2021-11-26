@@ -178,7 +178,7 @@ header{
 }
 
 /*EMULADORES Y JUEGOS*/
-.gameboyadvance, .superNintendo, .nintendDs, .gbaJuegos{
+.gameboyadvance, .superNintendo, .nintendDs, .gbaJuegos, .snesJuegos, .ndsJuegos{
   display: none;
   width: 70%;
   min-height: 100vh;

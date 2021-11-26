@@ -12,4 +12,3 @@ function tikiTaka(invocoA){
     v[i].classList.add('escond');
   }
 }
-

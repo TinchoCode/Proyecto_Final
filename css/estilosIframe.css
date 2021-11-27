@@ -45,3 +45,18 @@ body{
 }
 
 .descJuego a:hover{color: blue;}
+
+body::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+ /*   display: none;  /* Ocultar scroll */
+}
+
+body::-webkit-scrollbar-track {
+    background: #18191a;        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #333;    /* color of the scroll thumb */
+    border: 3px solid #18191a;  /* creates padding around scroll thumb */
+}
